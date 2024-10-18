@@ -212,7 +212,7 @@ def main():
 
 			full_frames.append(frame)
 
-	print ("Number of frames available for inference: "+str(len(full_frames)))
+	print("Number of frames available for inference: "+str(len(full_frames)))
 
 	if not args.audio.endswith('.wav'):
 		print('Extracting raw audio...')
@@ -278,3 +278,5 @@ def main():
 
 if __name__ == '__main__':
 	main()
+
+
