@@ -134,3 +134,7 @@ def _denormalize(D):
         return (((D + hp.max_abs_value) * -hp.min_level_db / (2 * hp.max_abs_value)) + hp.min_level_db)
     else:
         return ((D * -hp.min_level_db / hp.max_abs_value) + hp.min_level_db)
+
+# examples/face/1.mp4
+# examples/audio/1.wav
+# inference_estimate_time.py
